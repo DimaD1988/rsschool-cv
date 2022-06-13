@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth; 
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+body {
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(20, 145, 120);
+    background-color: rgb(255, 227, 194);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(254, 222, 180);
+    width:100%;
+}
+.header-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-section {
+    width: 30%;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding-right: 25px;
+}
+a:link {
+    color: rgb(20, 135, 72)
+}
+a:visited {
+    color: rgb(12, 148, 88);
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+.section-title {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-item {
+    padding-left: 20px;
+    font-weight: 600;
+    text-decoration: none;  
+}
+.section-a {
+    width: 33%;
+    color: rgb(20, 135, 120);
+    background-color: rgb(255, 222, 180);
+}
+.section-b {
+    width: 33%;
+    color: rgb(25, 125, 120);
+    background-color: rgb(255, 215, 175);
+}
+.section-c {
+    width: 34%;
+    color: rgb(30, 115, 120);
+    background-color: rgb(255, 210, 170);
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-section-1 {
+    width: 25%;
+    color: rgb(40, 150, 120);
+    background-color: rgb(255, 215, 175);
+}
+.footer-section-2 {
+    width: 25%;
+    color: rgb(45, 160, 120);
+    background-color: rgb(255, 210, 170);
+}
+.footer-section-3 {
+    width: 25%;
+    color: rgb(50, 170, 120);
+    background-color: rgb(255, 205, 165);
+}
+.footer-section-4 {
+    width: 25%;
+    color: rgb(55, 180, 120);
+    background-color: rgb(255, 200, 160);
+}
+.footer-item {
+    padding-left: 75px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;  
+}
